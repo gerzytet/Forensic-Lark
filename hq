@@ -1,0 +1,23 @@
+#!/bin/bash
+curr_dir="$(pwd)"
+location="${curr_dir/"$AGENT_DIR"/}"
+guide_dir="$HQ_DATA_DIR$location"
+guide_script="$guide_dir/guide.sh"
+
+if [[ "$curr_dir" =~ "headquarters" ]]
+then
+    cat "$HQ_DATA_DIR/headquarters_readme.txt"
+    exit 0
+fi
+
+if [ -f "$guide_script" -a ! -x "$guide_script" ]
+then
+    chmod +x "$guide_script"
+fi
+
+if [ -f "$guide_script" ]
+then
+    "$guide_dir/guide.sh" $*
+else
+    "$HQ_DATA_DIR/lost.sh" $*
+fi

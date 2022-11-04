@@ -1,0 +1,17 @@
+#!/bin/bash
+curr_dir="$(pwd)"
+location="${curr_dir/"$AGENT_DIR"/}"
+guide_dir="$HQ_DATA_DIR$location"
+guide_script="$guide_dir/hint.sh"
+
+if [ -f "$guide_script" -a ! -x "$guide_script" ]
+then
+    chmod +x "$guide_script"
+fi
+
+if [ -f "$guide_script" ]
+then
+    "$guide_script" $*
+else
+    "$HQ_DATA_DIR/nohint.sh" $*
+fi

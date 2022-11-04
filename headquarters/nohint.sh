@@ -1,0 +1,1 @@
+echo "There is no hint for this area."

@@ -1,5 +1,0 @@
-#!/bin/bash
-curr_dir="$(pwd)"
-echo "$GAME_ROOT_DIR"
-location="${curr_dir/"$GAME_DIR"/}"
-"$GUIDE_DATA_DIR$location/guide.sh" $*
