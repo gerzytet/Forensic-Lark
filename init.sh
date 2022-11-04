@@ -55,6 +55,7 @@ then
             if [ "$answer" = "y" ]
             then
                 echo "Resetting..."
+                resetProgress
             else
                 echo "Not resetting."
             fi
@@ -65,6 +66,7 @@ else
     export PATH="$PATH:$AGENT_ROOT_DIR"
     export AGENT_DIR="$AGENT_ROOT_DIR/agent"
     export HQ_DATA_DIR="$AGENT_ROOT_DIR/headquarters"
+    tar -cf agent.bak agent
     cd agent
     hq
 fi
