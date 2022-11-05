@@ -13,6 +13,18 @@ resetAgent() {
     tar -xf agent.bak
 }
 
+if [ $# -eq 0 ]
+then
+echo "Becareful with this script, you did not put any input operators in"
+exit
+fi
+
+if [ $# -ge 2 ]
+then
+echo "Thats too many input operators, do one at a time"
+exit
+fi
+
 if [ $# -eq 1 ]
 then
     case $1 in
