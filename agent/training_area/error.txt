@@ -1,0 +1,155 @@
+Script started on 2022-11-05 17:06:57-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="151" LINES="12"]
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ 
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ ./gr[K[K[K[Khq
+[?2004l/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 12: syntax error near unexpected token `fi'
+/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 12: `fi'
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ h1[Kq
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lWelcome to the training area
+I told you the name of the file but you will not always know in the investagation
+Use the command ls to list all the files in a the current directory
+A blue name represents a directory
+A green name represents a script
+And a white name represents a normal file
+once you find the directory enter it using cd then use hq to get your next instructions
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ cd a_directory
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area/a_directory[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area/a_directory[00m$ h1
+[?2004lh1: command not found
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area/a_directory[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area/a_directory[00m$ h1\[K[Kq
+[?2004lWell done, to continue your training you have to go back to previous directory
+To do this type in the command cd ..
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area/a_directory[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area/a_directory[00m$ cd ..
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lWelcome to the training area
+I told you the name of the file but you will not always know in the investagation
+Use the command ls to list all the files in a the current directory
+A blue name represents a directory
+A green name represents a script
+And a white name represents a normal file
+once you find the directory enter it using cd then use hq to get your next instructions
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ h q[K[Kq myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ 
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ 
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ 
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ 
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq myscript.sh[K myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq myscript.sh
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ ls [K[K[Khq
+[?2004l/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 21: syntax error near unexpected token `elif'
+/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 21: `elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in for the introduction of the training area'
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ bash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ ash
+[?2004lCommand 'ash' not found, but can be installed with:
+sudo apt install ash
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ bash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ cd training_Area
+[?2004lbash: cd: training_Area: No such file or directory
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ cd training_Area
+[?2004lbash: cd: training_Area: No such file or directory
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ bash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ cd training_Area[2Psource init.shcript error.txthq[Kscript error.txt[2Pource init.shcd training_Area[Kbash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ bash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ bash
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004l/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 21: syntax error near unexpected token `elif'
+/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 21: `elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in for the introduction of the training area'
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq
+[?2004lGood, now before we conclude your training we will need to teach you the last and one of the most important things
+We will teach you how to send files and directories to us.
+It is a very simple process to send a file and or directory to us, you must type hq (the name of the file or directory)
+This is called passing through and can be done with not only us but with functions as well.
+Send us the myscript.sh file.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq my[K[K[K 1 2 3
+[?2004l/home/gerzytet/Desktop/lark/headquarters/training_area/guide.sh: line 11: [: myscript.sh: integer expression expected
+Perfect, you have completed your training you can now exit the training area and start your first mission.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq 1 2 3
+[?2004lYou didnt input the correct file, try inputing myscript.sh
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ hq 1 2 3[K[K[K[K[Kmyscript.sh
+[?2004lPerfect, you have completed your training you can now exit the training area and start your first mission.
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent/training_area[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent/training_area[00m$ cd ..
+[?2004l[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ it[K[Kgit p[K[K commit -a
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;69H(B[0;7m[ Reading... ](B[m[10;68H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 6.2                                        /home/gerzytet/Desktop/lark/.git/COMMIT_EDITMSG                                                  [1;150H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[12;129H(B[0;7m^Q(B[m Where Was[3d[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Your branch is up to date with 'origin/master'.[8d#[9d# Changes to be committed:[2d[39m(B[m[?12l[?25h[?25l[1;103H(B[0;7m*[150G(B[m[?12l[?25h[2dT[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hF[?25l[?12l[?25hi[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[10d[K[?12l[?25h[2dF [?25l[?12l[?25h[K[?25l[?12l[?25hM[?25l[?12l[?25ha[?25l[?12l[?25hk[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hk[?25l[?12l[?25h,[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25hn[?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hx[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hg[?25l[?12l[?25hh[?25l[11;17H[21X[11;38H(B[0;7mM-D(B[m DOS Format   [11;65H          (B[0;7mM-A(B[m Append[20X[11;112H(B[0;7mM-B(B[m Backup File[K[12;2H(B[0;7mC(B[m Cancel[17G[21X[12;38H(B[0;7mM-M(B[m Mac Format     [12;65H          (B[0;7mM-P(B[m Prepend[19X[12;112H(B[0;7m^T(B[m Browse[K[10d(B[0;7mFile Name to Write: /home/gerzytet/Desktop/lark/.git/COMMIT_EDITMSG                                                                                    [10;68H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;103H(B[0;7m [150G(B[m[10;67H(B[0;7m[ Wrote 14 lines ](B[m[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[112G (B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket[12;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[112G (B[0;7mM-6(B[m Copy[12;129H(B[0;7m^Q(B[m Where Was[?12l[?25h[2;52H[?25l[10d[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[K[master 309af76] Make the code work (not all issues are fixed though
+ 2 files changed, 31 insertions(+), 29 deletions(-)
+ rewrite headquarters/training_area/guide.sh (98%)
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ git push
+[?2004lEnumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 776 bytes | 776.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/gerzytet/Forensic-Lark.git
+   78a0ea0..309af76  master -> master
+[?2004h]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ [K]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ [K]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ [K]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ [K]0;gerzytet@ubuntu: ~/Desktop/lark/agent[01;32mgerzytet@ubuntu[00m:[01;34m~/Desktop/lark/agent[00m$ git pull
+[?2004lUpdating 309af76..2cd06f2
+Fast-forward
+ headquarters/techsupport_scam/Desktop/guide.sh   | 0
+ headquarters/techsupport_scam/Desktop/hint.sh    | 0
+ headquarters/techsupport_scam/Documents/guide.sh | 0
+ headquarters/techsupport_scam/Documents/hint.sh  | 0
+ headquarters/techsupport_scam/Downloads/guide.sh | 0
+ headquarters/techsupport_scam/Downloads/hint.sh  | 0
+ headquarters/techsupport_scam/Music/guide.sh     | 0
+ headquarters/techsupport_scam/Music/hint.sh      | 0
+ headquarters/techsupport_scam/Pictures/guide.sh  | 0
+ headquarters/techsupport_scam/Pictures/hint.sh   | 0
+ headquarters/techsupport_scam/Public/guide.sh    | 0
+ headquarters/techsupport_scam/Public/hint.sh     | 0
+ headquarters/techsupport_scam/Templates/guide.sh | 0
+ headquarters/techsupport_scam/Templates/hint.sh  | 0
+ headquarters/techsupport_scam/Videos/guide.sh    | 0
+ headquarters/techsupport_scam/Videos/hint.sh     | 0
+ headquarters/techsupport_scam/guide.sh           | 2 [32m++[m
+ headquarters/techsupport_scam/hint
