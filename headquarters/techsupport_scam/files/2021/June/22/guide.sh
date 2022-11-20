@@ -1,21 +1,20 @@
 #!/bin/bash
-cat > tempfile
+cat > $guide_dir/tempfile
 if [ -s tempfile ]
 then
-checker=$(diff $1 "$guide_dir/examp")
+checker=$(diff tempfile "$guide_dir/examp")
 fi
 
 if [ $# -eq 0 ]
 then
 echo "Nicely done, these scammers clearly have some poor spending habits."
-echo "Luckily with this it could contain their banking information"
-echo "Gawk seems like it would work here but instead you will be using a different command"
-echo "You will be using grep, the grep command is more useful in this situation"
-echo "This is because grep does not require as many parameters"
-echo "Grep can be like so, grep (filter) (file)"
-echo "When using grep do not include the parenthesis"
+echo "Luckily with this it could contain their banking information."
+echo "Gawk seems like it would work here but instead you will be using a different command."
+echo "You will be using grep, the grep command is more useful in this situation."
+echo "This is because grep can search for keywords in file."
+echo "Grep can be used like so: grep (filter) (file)"
 echo "Then pipe the information into hq."
-echo "Due to how simple minded the scammers are try filtering for the word bank."
+echo "Try filtering for the word bank."
 elif [ "$checker" != "" ]
 then
 echo "We just received something but it is not what we are looking for, we are looking for the banking information of the scammers."
