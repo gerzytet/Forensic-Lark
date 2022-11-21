@@ -2,6 +2,7 @@
 curr_dir="$(pwd)"
 location="${curr_dir/"$AGENT_DIR"/}"
 export guide_dir="$HQ_DATA_DIR$location"
+export progress="$guide_dir/progress.txt"
 guide_script="$guide_dir/guide.sh"
 
 if [[ "$curr_dir" =~ "headquarters" ]]
