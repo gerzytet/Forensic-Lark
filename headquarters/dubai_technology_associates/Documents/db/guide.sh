@@ -13,7 +13,7 @@ then
         echo "In the file, each line contains the record for one customer"
         echo "To get this number, we need to use the wc program."
         echo "wc will usually report the number of words in a file, but we can tell it to count the number of lines by using it like so:"
-        echo "wc -l <file>"
+        echo "wc -l (file)"
         echo "Figure out how many people have potentially been scammed with wc -l, then report this number back using hq <number>"
         echo "1" > "$guide_dir/progress.txt"
     elif [ "$(cat $guide_dir/progress.txt)" = "1" ]
@@ -69,7 +69,10 @@ then
             echo "4" > "$progress"
             echo "Now for one final request:"
             echo "I want the customer database, sorted, with unique lines only"
+            echo "To sort the information, use the sort command.  Use pipes to input the data into sort."
+            echo "For example: cat ./customer_db.txt | sort"
             echo "With this information, we will ponentially be able to refund the victims."
+            echo "Don't forget to remove the duplicate lines and pipe the result to hq"
         else
             echo "Wrong answer."
             echo "Your sequence of commands should look something like this:"
@@ -89,6 +92,12 @@ then
             echo "5" > "$progress"
             echo "There is one other thing I need you to go investigate in the Documents folder"
             echo "Go to the documents folder and run hq for further instructions"
+        else
+            echo "Wrong answer"
+            echo "Remember, you need the following steps:"
+            echo "1. cat the database"
+            echo "2-3. remove duplicate lines, sort"
+            echo "4. pipe to hq"
         fi
     fi
 else
@@ -99,5 +108,5 @@ else
     echo "But the file name contains the date 18_11_2022.  This backup was taken late November, so it's recent!"
     echo "finally, this file is .tar.  A tar file is a file that contains other files, usually compressed"
     echo "Putting it all together, this is a recent backup of a database.  However, to be able to look inside, we need to extract the tar file"
-    echo "To do this, use the command tar -xf <file>"
+    echo "To do this, use the command tar -xf (file)"
 fi
