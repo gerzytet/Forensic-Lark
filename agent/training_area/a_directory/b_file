@@ -1,0 +1,3 @@
+As said previously using the cat function allows you to look inside the contents of a file, alternatively if there is an overwhelming amount of data of data within a file you can use less instead of cat to show the contents in a page by page format.
+
+Now to conclude your training you will need to go back to the previous directory, to do this simply do cd .. once in that directory call hq again for you last and most crucial part of your training.
