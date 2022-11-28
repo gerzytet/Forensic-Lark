@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "no text here yet"
+echo "There are plenty of directories to search through but the documents directory is looking the most suspicious"
