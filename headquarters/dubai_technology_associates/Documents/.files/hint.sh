@@ -1,0 +1,1 @@
+echo "use find . -name bankinfo"
