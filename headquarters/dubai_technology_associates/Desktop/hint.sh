@@ -1,0 +1,1 @@
+echo "The Documents directory has the right information"

@@ -15,14 +15,16 @@ resetAgent() {
 
 if [ $# -eq 0 ]
 then
-    echo "Becareful with this script, you did not put any input operators in"
+    echo "Usage: "
+    echo "reset.sh resetall - reset everything"
+    echo "reset.sh resetprogress - reset progress"
+    echo "reset.sh reset - reset files"
     exit
 fi
 
 if [ $# -ge 2 ]
 then
-    echo "Thats too many input operators, do one at a time"
-    exit
+    echo "Too many arguments.  Expected 1 argument."
 fi
 
 if [ $# -eq 1 ]
@@ -30,7 +32,7 @@ then
     case $1 in
         reset)
             echo "This will reset all files in the investigation files in the game to their initial state.  This command will keep some progress intact, although any commands you used to modify files in the game will need to be repeated"
-            echo "If you would like to wipe out all progress as well, use \"source init.sh resetall\""
+            echo "If you would like to wipe out all progress as well, use \"./reset.sh resetall\""
             read -p "Really reset? [y/n]: " answer
             if [ "$answer" = "y" ]
             then 
@@ -42,7 +44,7 @@ then
         ;;
         resetall)
             echo "This will reset all files in the investigation files in the game to their initial state, as well as all progress."
-            echo "If you would like to attempt to keep progress, use use \"source init.sh reset\""
+            echo "If you would like to attempt to keep progress, use use \"./reset.sh reset\""
             read -p "Really reset? [y/n]: " answer
             if [ "$answer" = "y" ]
             then 
@@ -63,6 +65,13 @@ then
             else
                 echo "Not resetting."
             fi
+        ;;
+        *)
+            echo "Invalid argument: $1"
+            echo "Usage: "
+            echo "reset.sh resetall - reset everything"
+            echo "reset.sh resetprogress - reset progress"
+            echo "reset.sh reset - reset files"
         ;;
     esac
 fi
