@@ -1,8 +1,4 @@
 #!/bin/bash
-hili=$(tput setab 1)
-bold=$(tput bold)
-norm=$(tput sgr0)
-
 cat > $guide_dir/tempfile
 if [ -s tempfile ]
 then
@@ -12,11 +8,11 @@ fi
 if [ $# -eq 0 ]
 then
 echo "Nicely done, these scammers clearly have some poor spending habits."
-echo "Luckily with this it could contain their banking information."
-echo "${hili}Gawk${norm} seems like it would work here but instead you will be using a different command."
-echo "You will be using ${hili}grep${norm}, the ${hili}grep${norm} command is more useful in this situation."
+echo "Luckily it could contain some of their banking information."
+echo "Instead of using the find command to search for file we will now using the ${hili}grep${norm} command to search inside of files."
+echo "The ${hili}grep${norm} command is more useful in this situation."
 echo "This is because ${hili}grep${grep} can search for keywords in file."
-echo "Grep can be used like so: {bold}grep (filter) (file){norm}"
+echo "Grep can be used like so: ${bold}grep (filter) (file)${norm}"
 echo "Then pipe the information into ${hili}hq${norm}."
 echo "Try filtering for the word ${bold}bank${norm}."
 elif [ "$checker" != "" ]
