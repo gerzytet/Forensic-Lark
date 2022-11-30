@@ -9,10 +9,12 @@ then
     echo "You will need more commands than the basic training covered, but I will show you them as we go along."
     echo "Continue running ${hili}hq${norm} in every new directory."
     echo "The contents of the computer are located at the ${hili}dubai_technology_associates${norm} directory.  Good luck!"
+    hqunlock
 else
     echo "Welcome to your basic training"
     echo "We're very glad to have you here... My desk is piling up with new cases, and our staffing issue isn't helping anything!"
     echo "I will be training you in everything you need to know to investigate"
     echo -e "use\ncd training_area\nto enter the training area"
     echo "Then run the hq command to get further instructions."
+    hqlock ./training_area
 fi

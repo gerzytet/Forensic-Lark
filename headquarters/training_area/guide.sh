@@ -16,6 +16,7 @@ then
     else
         echo "Perfect, you have completed your training you can now ${bold}exit the training area ${norm}and start your first mission."
         echo "1" > "$guide_dir/progress.txt"
+        hqlock ..
     fi
 elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in for the introduction of the training area
 then
@@ -25,6 +26,7 @@ then
     echo "A ${typecolg}green name${norm} represents a script"
     echo "And a ${typecolw}white${norm} name represents a normal file"
     echo "once you find the ${typecolb}directory${norm} enter it using ${hili}cd${norm} then use ${hili}hq${norm} to get your next instructions"
+    hqunlock
     #unlock_notebook <script name> <display name>
     unlock_notebook ls ls
 fi

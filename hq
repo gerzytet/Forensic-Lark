@@ -29,7 +29,20 @@ function unlock_notebook() {
     fi
 }
 
+function hqunlock() {
+    find "$HQ_DATA_DIR" -name hqlock -delete
+}
+
+function hqlock() {
+    hqunlock
+    cd "$guide_dir"
+    touch "$1/hqlock"
+    cd "$curr_dir"
+}
+
 export -f unlock_notebook
+export -f hqunlock
+export -f hqlock
 
 if [[ "$curr_dir" =~ "headquarters" ]]
 then
@@ -44,7 +57,13 @@ fi
 
 if [ -f "$guide_script" ]
 then
-    "$guide_dir/guide.sh" $*
+    lock_loc="$(find "$HQ_DATA_DIR" -name hqlock)"
+    if [ -z "$lock_loc" -o "$guide_dir/hqlock" = "$lock_loc" ]
+    then
+        "$guide_dir/guide.sh" $*
+    else
+        "$HQ_DATA_DIR/get_back_over_here_young_man.sh"
+    fi
 elif [[ "$curr_dir" =~ ".files" ]]
 then
     "$HQ_DATA_DIR/dubai_technology_associates/Documents/.files/filemaze.sh" $*
