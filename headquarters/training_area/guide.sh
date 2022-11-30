@@ -21,8 +21,8 @@ elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in fo
 then
     echo "Welcome to the training area"
     echo "Use the command ${hili}ls${norm} to list all the files in a the current directory"
-    echo "A ${typecolb}blue name${norm} represents a directory"
-    echo "A ${typecolg}green name${norm} represents a script"
+    echo "A ${typecolb}blue${norm} name represents a directory"
+    echo "A ${typecolg}green${norm} name represents a script"
     echo "And a ${typecolw}white${norm} name represents a normal file"
     echo "once you find the ${typecolb}directory${norm} enter it using ${hili}cd${norm} then use ${hili}hq${norm} to get your next instructions"
     #unlock_notebook <script name> <display name>

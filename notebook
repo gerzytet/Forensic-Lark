@@ -1,4 +1,11 @@
 #!/bin/bash
+export hili=$(tput setab 1)
+export typecolb=$(tput setaf 4)
+export typecolg=$(tput setaf 2)
+export typecolw=$(tput setaf 7)
+export typecolr=$(tput setaf 1)
+export bold=$(tput bold)
+export norm=$(tput sgr0)
 
 notebook_dir="$HQ_DATA_DIR/notebook"
 unlocked_notebook_dir="$notebook_dir/unlocked"
