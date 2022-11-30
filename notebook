@@ -1,0 +1,21 @@
+#!/bin/bash
+
+notebook_dir="$HQ_DATA_DIR/notebook"
+unlocked_notebook_dir="$notebook_dir/unlocked"
+
+rm -f "$notebook_dir/notebook.txt"
+
+for i in "$(ls $unlocked_notebook_dir)"
+do
+    if [ -z "$i" ]
+    then
+        exit 0
+    fi
+    if [ ! -x "$unlocked_notebook_dir/$i" ]
+    then
+        chmod +x "$unlocked_notebook_dir/$i"
+    fi
+    "$unlocked_notebook_dir/$i" >> "$notebook_dir/notebook.txt"
+done
+
+less "$notebook_dir/notebook.txt"

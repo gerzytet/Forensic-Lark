@@ -25,4 +25,6 @@ then
     echo "A ${typecolg}green name${norm} represents a script"
     echo "And a ${typecolw}white${norm} name represents a normal file"
     echo "once you find the ${typecolb}directory${norm} enter it using ${hili}cd${norm} then use ${hili}hq${norm} to get your next instructions"
+    #unlock_notebook <script name> <display name>
+    unlock_notebook ls ls
 fi

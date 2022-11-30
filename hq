@@ -4,6 +4,9 @@ location="${curr_dir/"$AGENT_DIR"/}"
 export guide_dir="$HQ_DATA_DIR$location"
 export progress="$guide_dir/progress.txt"
 guide_script="$guide_dir/guide.sh"
+notebook_dir="$HQ_DATA_DIR/notebook"
+export unlocked_notebook_dir="$notebook_dir/unlocked"
+export pages_notebook_dir="$notebook_dir/pages"
 
 #text variables
 export hili=$(tput setab 1)
@@ -12,6 +15,21 @@ export typecolg=$(tput setaf 2)
 export typecolw=$(tput setaf 7)
 export bold=$(tput bold)
 export norm=$(tput sgr0)
+
+# returns 0 if the notebook was not already unlocked
+function unlock_notebook() {
+    name="$1"
+    display_name="$2"
+    if [ ! -f "$unlocked_notebook_dir/$name.sh" ]
+    then
+        mv "$pages_notebook_dir/$name.sh" "$unlocked_notebook_dir/$name.sh"
+        echo "You have unlocked the notebook entry for $display_name"
+        echo "Use ${hili}notebook${norm} to view it"
+        return 0
+    fi
+}
+
+export -f unlock_notebook
 
 if [[ "$curr_dir" =~ "headquarters" ]]
 then
