@@ -1,5 +1,10 @@
 #!/bin/bash
-if [ -f "$guide_dir/training_area/progress.txt" ]
+if [ -f "$guide_dir/dubai_technology_associates/Documents/.files/2021/June/22/progress.txt" ]
+then
+    echo "stuff about naples nutri"
+    echo "Now go there and fix it"
+    hqlock ./naples_nutri
+elif [ -f "$guide_dir/training_area/progress.txt" ]
 then
     echo "Now with your basic training done, It's time for your ${bold}first mission${norm}"
     echo "Several Florida residents have been tricked by 'Dubai Technology Associates', which operate download website with fake popups claiming that your computer has been infected."

@@ -1,11 +1,17 @@
 #!/bin/bash
-cat > $guide_dir/tempfile
-if [ -s tempfile ]
+if [ -t 0 ]
 then
-checker=$(diff tempfile "$guide_dir/examp")
+    echo "" > $guide_dir/tempfile
+else
+    cat > $guide_dir/tempfile
 fi
 
-if [ $# -eq 0 ]
+if [ -s tempfile ]
+then
+    checker=$(diff tempfile "$guide_dir/examp")
+fi
+
+if [ -t 0 ]
 then
 echo "Nicely done, these scammers clearly have some poor spending habits."
 echo "Luckily it could contain some of their banking information."
@@ -22,4 +28,5 @@ else
 echo "Well done. It may be small but now we have enough information to arrest these scammers."
 echo "Call ${hili}hq${norm} in the techsupport_scam directory for further instructions."
 echo "1" > "$guide_dir/progress.txt"
+hqlock $HQ_DATA_DIR
 fi
