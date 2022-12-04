@@ -5,6 +5,7 @@ then
         echo "What a find!  The entire \"customer\" database is in here!"
         echo "Use less to take a look inside the customer database, then use hq again when you've looked at some of its contents."
         echo "0" > "$guide_dir/progress.txt"
+        
         exit 0
     elif [ "$(cat $guide_dir/progress.txt)" = "0" ]
     then

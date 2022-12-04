@@ -28,5 +28,7 @@ else
 echo "Well done. It may be small but now we have enough information to arrest these scammers."
 echo "Call ${hili}hq${norm} in the techsupport_scam directory for further instructions."
 echo "1" > "$guide_dir/progress.txt"
+   #unlock_notebook <script name> <display name>
+    unlock_notebook grep grep
 hqlock $HQ_DATA_DIR
 fi

@@ -6,3 +6,4 @@ echo "The syntax for the find command is as follows: ${hili}find -name (filter)$
 echo "${bold}We will also have the filter preceeded and proceeded by astericks${norm}, the astericks tell the command to check if the filtered word is either the prefix or the suffix of the file name."
 echo "You may need to try a few filters to get some results, some suggestions are: ${bold}clients, employees, and or bank${norm}."
 echo "If you find anything go ahead and cd your way to it."
+unlock_notebook find find

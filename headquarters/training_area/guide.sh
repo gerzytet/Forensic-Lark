@@ -16,6 +16,9 @@ then
     else
         echo "Perfect, you have completed your training you can now ${bold}exit the training area ${norm}and start your first mission."
         echo "1" > "$guide_dir/progress.txt"
+            #unlock_notebook <script name> <display name>
+    unlock_notebook less less
+    unlock_notebook hq hq
         hqlock ..
     fi
 elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in for the introduction of the training area
