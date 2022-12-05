@@ -1,6 +1,11 @@
 resetProgress() {
     find headquarters -name progress.txt -delete
     rm -f headquarters/notebook/unlocked/*
+    hqunlock
+}
+
+hqunlock() {
+    find . -name hqlock -delete
 }
 
 resetAgent() {
