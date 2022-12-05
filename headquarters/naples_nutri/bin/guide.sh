@@ -18,10 +18,10 @@ fi
 
 if [ $count -eq 0 ]
 then
-    echo "brotten files fixed, go back"
+    echo "Well done the brotten files are gone, go back to the nutri_naples directory for your next objective."
     echo "1" > "$guide_dir/progress.txt"
     hqlock ..
 else
-    echo "fix the brotten scripts... OR ELESE"
+    echo "You did not fix it yet, if you dont get rid of it, then the brotten will spread again."
     echo "$count still broken"
 fi
