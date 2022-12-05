@@ -57,7 +57,7 @@ fi
 
 if [ -f "$guide_script" ]
 then
-    lock_loc="$(find "$HQ_DATA_DIR" -name hqlock)"
+    export lock_loc="$(find "$HQ_DATA_DIR" -name hqlock)"
     if [ -z "$lock_loc" -o "$guide_dir/hqlock" = "$lock_loc" ]
     then
         "$guide_dir/guide.sh" $*

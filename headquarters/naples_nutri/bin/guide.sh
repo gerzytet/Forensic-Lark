@@ -18,7 +18,7 @@ fi
 
 if [ $count -eq 0 ]
 then
-    echo "Well done the brotten files are gone, go back to the nutri_naples directory for your next objective."
+    echo "Well done the brotten files are gone, go back to the naples_nutri directory for your next objective."
     echo "1" > "$guide_dir/progress.txt"
     hqlock ..
 else

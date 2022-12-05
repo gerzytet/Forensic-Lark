@@ -1,8 +1,9 @@
 #!/bin/bash
 if [ -f "$guide_dir/dubai_technology_associates/Documents/.files/2021/June/22/progress.txt" ]
 then
-    echo "stuff about naples nutri"
-    echo "Now go there and fix it"
+    echo "Welcome to your final mission, the ${hili}naples_nutri${norm} directory contains the server for a local company called naples nutri."
+    echo "Recently their main server was hacked with a virus called brotten."
+    echo "Your job is to find where the brotten files are and get rid of them."
     hqlock ./naples_nutri
 elif [ -f "$guide_dir/training_area/progress.txt" ]
 then

@@ -1,0 +1,1 @@
+echo "chmod 777 brotten-0.sh"
