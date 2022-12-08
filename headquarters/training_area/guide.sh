@@ -14,17 +14,16 @@ then
     then
         echo "You didnt input the correct file name.  If you are stuck, use the ${hili}hint command${norm}."
     else
-        echo "Perfect, you have completed your training you can now ${bold}exit the training area ${norm}and start your first mission."
+        echo "Perfect, you have completed your training you can now ${bold}exit the training area${norm} by going back a directory and start your first mission."
+        echo "From there, call hq again for more details about the job."
         echo "1" > "$guide_dir/progress.txt"
-            #unlock_notebook <script name> <display name>
-    unlock_notebook less less
-    unlock_notebook hq hq
+        unlock_notebook less less
         hqlock ..
     fi
 elif [ $# -eq 0 ] #this is trying to check if the player put any arguments in for the introduction of the training area
 then
     echo "Welcome to the training area"
-    echo "Use the command ${hili}ls${norm} to list all the files in a the current directory"
+    echo "Use the command ${hili}ls${norm} to list all the files in the current directory"
     echo "A ${typecolb}blue${norm} name represents a directory"
     echo "A ${typecolg}green${norm} name represents a script"
     echo "And a ${typecolw}white${norm} name represents a normal file"
@@ -32,4 +31,5 @@ then
     hqunlock
     #unlock_notebook <script name> <display name>
     unlock_notebook ls ls
+    unlock_notebook hint hint
 fi

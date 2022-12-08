@@ -26,7 +26,8 @@ then
 echo "We just received something but it is not what we are looking for, we are looking for the banking information of the scammers."
 else
 echo "Well done. It may be small but now we have enough information to arrest these scammers."
-echo "Call ${hili}hq${norm} in the techsupport_scam directory for further instructions."
+echo "Call ${hili}hq${norm} in the root agent directory for further instructions."
+echo "Get there using ${hili}cd ../../../../../..${norm}"
 echo "1" > "$guide_dir/progress.txt"
    #unlock_notebook <script name> <display name>
     unlock_notebook grep grep

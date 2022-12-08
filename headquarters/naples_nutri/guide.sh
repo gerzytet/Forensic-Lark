@@ -25,9 +25,9 @@ else
     else
         echo "The first area we need you to look is the .bashrc file which is hidden because it starts with ."
         echo "Specifically we will need you to edit this file manually using ${hili}vim${norm}."
-        echo "${hili}vim${vim} allows you to edit files or scripts, and to start by editing a file with vim you will need to type ${hili}vim${norm} followed by the file you would like to edit."
+        echo "${hili}vim${norm} allows you to edit files or scripts, and to start by editing a file with vim you will need to type ${hili}vim${norm} followed by the file you would like to edit."
         echo "Upon entering it you will need to delete the line it is on by using the delete line shortcut ${hili}dd${norm}, once it has been deleted you may leave the vim by pressing the escape key and typing ${hili}:wq${norm}"
         echo "Once finished call us again using ${hili}hq${norm}."
-        unlock_notebook vim vim0
+        unlock_notebook vim vim
     fi
 fi

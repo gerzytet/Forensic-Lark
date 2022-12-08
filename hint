@@ -1,8 +1,11 @@
 #!/bin/bash
 curr_dir="$(pwd)"
 location="${curr_dir/"$AGENT_DIR"/}"
-guide_dir="$HQ_DATA_DIR$location"
+export guide_dir="$HQ_DATA_DIR$location"
 guide_script="$guide_dir/hint.sh"
+export typecolg=$(tput setaf 2)
+export hili=$(tput setaf 5)
+export norm=$(tput sgr0)
 
 if [ -f "$guide_script" -a ! -x "$guide_script" ]
 then

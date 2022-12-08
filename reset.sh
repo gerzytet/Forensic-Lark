@@ -1,6 +1,9 @@
 resetProgress() {
     find headquarters -name progress.txt -delete
-    rm -f headquarters/notebook/unlocked/*
+    for i in headquarters/notebook/unlocked/*
+    do
+        mv $i ${i/unlocked/pages}
+    done
     hqunlock
 }
 

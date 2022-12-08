@@ -1,1 +1,77 @@
-ls test
+[1mcat(B[m
+  The cat command allows the user to read the contents of files, not all files can be read.
+
+[1mcd(B[m
+  The cd command allows the user to change the current directory they are in.
+  To go back to the previous directory type cd ..
+  The user can use relative pathing to traverse several directories at once
+  Relative pathing consists of typing out each subsequent directory after another only divided by forword slashes.
+  Example: The directories room, dresser, topdrawer, the room being the top level, the dresser being the middle level and the topdrawer being the bottom level
+  To enter topdrawer while not being in the room you would type cd /room/dresser/topdrawer
+
+[1mchmod(B[m
+	chmod allows you to change the permission on a file.
+	The octal syntax is as follows: chmod 000 (file)
+	The octal numbers are as files:
+	0 : No permissions
+	1 : Execute permission only
+	2 : Write permission only
+	3 : Write and execute permissions
+	4 : Read permission only
+	5 : Read and execute permissions
+	6 : Read and write permissions
+	7 : Read, write and execute permissions
+
+[1mfind -delete(B[m
+ The find command allows you to find any file in a directory, tacking on the -delete to the end of it allows you to delete any of the files the find command finds
+The syntax is as follows, find (filter) -delete
+
+[1mfind(B[m
+The find command allows the user to search through a directory and its sub directories for files with a filter.
+There are many filters that can be used with the find command, a few will be listed below.
+-name: Searches for files based off of the name of the file
+
+[1mgrep(B[m
+The grep command allows you to search through a file for specific words you wish to look for, it then prints out the line the word is on.
+
+[1mhq(B[m
+The most important command that allows hq to contact the agent, this also allows the agent to send data to hq if the agent is able to find any important informaiton that needs scanning.
+
+[1mless(B[m
+  The less command allows you to read the contents of files like cat but unlike cat, less shows the text in a user friendly format.
+  To traverse the contents you can use the up and down arrow keys to go line by line and the left and right arrow keys to go page by page
+
+[1mls -a(B[m
+A extention off of the ls command that allows you to view all files including the hidden ones within the directory its called in.
+
+[1mls(B[m
+  The ls command allows the user to list all contents of the current directory.
+There are many different types of files but here are the ones you will most likely run into.
+  A [34mblue(B[m name represents a directory.
+  A [32mgreen(B[m name represents a script.
+  A [37mwhite(B[m name represents a normal file.
+  A [31mred(B[m name represents a tar file.
+
+[1mrm(B[m
+A simple yet incredibly useful command, this command allows the user to delete a file.
+The syntax for command is rm (file to be deleted)
+
+[1msort(B[m
+The sort command can be used to sort a large number of lines to the user's liking, there are several different options but for this assignment, you will only need default behavior.
+sort is also almost always piped into with a file.
+
+[1muniq(B[m
+uniq is quite an interesting command that allows the user to see all lines in a file except for the ones that are identical, this is quite useful to people who need to delete a large amount of duplicated lines.
+uniq is typically piped into but can be used by itself.
+
+[1mvim(B[m
+ vim is a very complicated command but it is widely useful, it allows you type and edit scripts.
+ For this though you will only need to know three things, how to enter it, how to delete a line and how to leave it.
+ To enter a vim file or a script you can simply type vim followed by the file name as such   vim (file name).
+ To delete a line line use the shortcut dd.
+ To leave simply press the escape key and type this :wq!
+
+[1mwc -l(B[m
+wc -l allows the user to count the number of lines that are within a file.
+wc -l is almost always piped into with a file.
+

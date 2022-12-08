@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 if (return 0 2>/dev/null)
 then
     true

@@ -22,6 +22,6 @@ then
     echo "1" > "$guide_dir/progress.txt"
     hqlock ..
 else
-    echo "You did not fix it yet, if you dont get rid of it, then the brotten will spread again."
-    echo "$count still broken"
+    echo "There are 3 files in this directory that are infected with brotten.  Remove the brotten lines, and call me whan you're done."
+    echo "$count scripts still broken"
 fi

@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Welcome to dubai technology associates main directory, you know what to do."
+echo "We need to find information that we can use to shut down their operation and reverse the fraudulent transactions"
+echo "Call me again when you think you've found something interesting."

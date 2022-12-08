@@ -1,1 +1,1 @@
-echo "chmod 777 brotten-0.sh"
+echo "${hili}chmod 777 brotten-0.sh${norm}"

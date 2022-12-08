@@ -9,7 +9,7 @@ export unlocked_notebook_dir="$notebook_dir/unlocked"
 export pages_notebook_dir="$notebook_dir/pages"
 
 #text variables
-export hili=$(tput setab 1)
+export hili=$(tput setaf 5)
 export typecolb=$(tput setaf 4)
 export typecolg=$(tput setaf 2)
 export typecolw=$(tput setaf 7)
@@ -43,6 +43,12 @@ function hqlock() {
 export -f unlock_notebook
 export -f hqunlock
 export -f hqlock
+
+if [ "$#" -eq 1 -a "$1" = "unlock" ]
+then
+    hqunlock
+    exit 0
+fi
 
 if [[ "$curr_dir" =~ "headquarters" ]]
 then

@@ -12,17 +12,18 @@ unlocked_notebook_dir="$notebook_dir/unlocked"
 
 rm -f "$notebook_dir/notebook.txt"
 
-for i in "$(ls $unlocked_notebook_dir)"
+for i in $unlocked_notebook_dir/*
 do
     if [ -z "$i" ]
     then
         exit 0
     fi
-    if [ ! -x "$unlocked_notebook_dir/$i" ]
+    if [ ! -x "$i" ]
     then
-        chmod +x "$unlocked_notebook_dir/$i"
+        chmod +x "$i"
     fi
-    "$unlocked_notebook_dir/$i" >> "$notebook_dir/notebook.txt"
+    "$i" >> "$notebook_dir/notebook.txt"
+    echo >> "$notebook_dir/notebook.txt"
 done
 
-less "$notebook_dir/notebook.txt"
+less -R "$notebook_dir/notebook.txt"

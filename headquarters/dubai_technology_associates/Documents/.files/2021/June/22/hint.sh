@@ -1,0 +1,1 @@
+echo "${hili}grep bank bankinfo | hq${norm}"
